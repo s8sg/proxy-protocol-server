@@ -27,7 +27,7 @@ struct sockaddr_storage to;   /* already filled by getsockname() */
 const char *reply_format = "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\"> "
                            "<html> "
 				"<head> "
-				   "<title>400 Bad Request</title> "
+				   "<title>Proxy Protocol Report</title> "
 				"</head> "
 				"<body> "
 				      "<h1>Proxy Protocol Report</h1> "
